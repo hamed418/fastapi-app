@@ -1,0 +1,10 @@
+To add alembic in project:
+python -m  alembic init alembic
+
+to add any revision file :
+python -m alembic revision -m "adding phone number column in users table"
+
+to run upgrade :
+alembic upgrade d5ee66f4fc74
+
+here d5ee66f4fc74 is Revision ID.

@@ -1,0 +1,15 @@
+run the data base : sqlite3 databse_name.db
+
+`````````````````` query ```````````````````
+--------- show table:
+select * from todos;
+
+--------- update element
+update todos set completed = True  where id =101;
+update todos set title = 'Celebrate a occation' where id =103;
+
+----------------- insert value into table:
+insert into todos (id,title,description,priority,completed) values (103,'Celebrating and occation','Eid a milladunabbi',6,False);
+
+------------ Delete items/row from table:
+delete from todos where id =102;
