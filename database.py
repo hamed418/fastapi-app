@@ -11,7 +11,7 @@ from sqlalchemy.ext.declarative import declarative_base
 # url format : "postgresql://postgres:password@localhost_name/DatabaseName"
 # for post gresql = postgresql://postgres:postgresql@localhost/TodoApplicationDatabase
 
-SQLALCHEMY_DATABASE_URL = "sqlite:///./todo_app.db"  # for sqlite database
+SQLALCHEMY_DATABASE_URL = "postgresql://postgres.oxnmhezetgketgiynjih:abcdalvi9421@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres"  # for sqlite database
 
 # create_engine() creates the main connection/communication mechanism between your Python application and the database.
 engine = create_engine(
